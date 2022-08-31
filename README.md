@@ -1,11 +1,6 @@
-<<<<<<< Updated upstream
 # FHNW Data Science specialization module
 ## Advanced Machine Learning techniques for imbalanced datasets
 =======
-FHNW Data Science MAS specialization module
-# Advanced Machine Learning project
-*Advanced Machine Learning techniques for imbalanced datasets*
->>>>>>> Stashed changes
 
 ### Project requirements:
 - Develop a classifier for the adult census dataset using advanced machine learning techniques
@@ -14,12 +9,8 @@ FHNW Data Science MAS specialization module
 - https://archive.ics.uci.edu/ml/datasets/Adult
 
 ### Getting started:
-- Install poetry:
-<<<<<<< Updated upstream
-```
-=======
+- Install poetry (manages dependances for pip):
 ```sh
->>>>>>> Stashed changes
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 - Configure poetry to install virtual environment inside project folders:
@@ -40,6 +31,6 @@ poetry install
 ```sh
 poetry shell
 ```
-- Run the jupyter notebook using your favorite IDE:
+- Run the jupyter notebook using your favorite IDE.
 
 
