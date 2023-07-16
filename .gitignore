@@ -129,5 +129,4 @@ dmypy.json
 .pyre/
 catboost_info
 
-advML_census_adult_dataset2.ipynb
-
+tmp.ipynb
