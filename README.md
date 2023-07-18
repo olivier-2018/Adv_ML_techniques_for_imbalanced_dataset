@@ -2,20 +2,24 @@
 ## Advanced Machine Learning techniques for imbalanced datasets
 =======
 
-### Project requirements:
+## Project requirements:
 - Develop a classifier for the adult census dataset using advanced machine learning techniques
 
 ### Dataset:
 - https://archive.ics.uci.edu/ml/datasets/Adult
 
 ### Getting started:
-- Install poetry (manages dependances for pip):
+- Install a virtual environment:
 ```sh
-curl -sSL https://install.python-poetry.org | python3 -
+virtualenv -p /usr/bin/python3.10 venv
 ```
-- Configure poetry to install virtual environment inside project folders:
+- Activate virtual environment:
 ```sh
-poetry config virtualenvs.in-project true
+source venv/bin/activate
+```
+- Install python libraries:
+```sh
+pip install -r requirements.txt
 ```
 - Clone the repository:
 ```sh
@@ -23,14 +27,31 @@ git clone git@github.com:olivier-2018/Adv_ML_techniques_for_imbalanced_dataset.g
 # then
 cd Adv_ML_techniques_for_imbalanced_dataset
 ```
-- Create a poetry virtual environment within the repository:
-```sh
-poetry install
-```
-- Activate the virtual environment:
-```sh
-poetry shell
-```
 - Run the jupyter notebook using your favorite IDE.
 
 
+## Results overview:
+
+### Data exploration - Numerical features
+![Numerical features](assets/numerical_features.png)
+
+### Data exploration - Categorical features
+![Categorical features](assets/categorical_features.png)
+
+### Pipeline & customer transformers
+![pipeline](assets/pipeline.png)
+
+### Raw features cross-correlation
+![Raw features](assets/raw_features_cross_correlation.png)
+
+### Transformed features cross-correlation
+![Engineered features](assets/transformed_features_cross_correlation.png)
+
+### Feature importance
+![Feature_importance](assets/feature_importance.png)
+
+### Final classification
+![Classification](assets/final_classification.png)
+
+### Precision-Recal & ROC_curves
+![Precision-Recal](assets/PR+ROC_curves.png)
